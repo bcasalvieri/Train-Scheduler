@@ -73,6 +73,5 @@ database.ref().on("child_added", function(childSnapshot) {
   $tr.append($tdName, $tdDestination, $tdFrequency, $tdNextArrival, $tdMinutesAway);
 
   $("tbody").append($tr);
-    
   
-})
+});
