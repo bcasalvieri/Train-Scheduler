@@ -39,7 +39,6 @@ database.ref().on("child_added", function(childSnapshot) {
 
   // grab frequency
   var tFrequency = trainData.frequency;
-  console.log("FREQUENCY: " + tFrequency);
 
   // convert first train time
   var firstTrainConverted = moment(trainData.firstTrain, "HH:mm").subtract(1, "years");
